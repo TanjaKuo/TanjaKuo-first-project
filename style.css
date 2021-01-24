@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    overflow: hidden;
+    color:hsl(0, 0%, 59%);
+    position: relative;
+    width: 100%;
+}
+
+
+#topPic {
+    position: absolute;
+    margin-top: -34.375rem;
+    margin-left: -18.125rem;
+}
+
+#bottomPic {
+    position:absolute;
+    margin-top: 21.875rem;
+    margin-left: 43.75rem;
+    object-fit: cover;
+}
+
+
+#middlePic {
+    position:absolute;
+    margin-top: 10.6875rem;
+    margin-left: 33.125rem;
+    height: 160px;
+    width: 21.875rem;
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+
+.middle {
+    width: 21.875rem;
+    height: 14.25rem;
+    background-color: white;
+    text-align: center;
+    margin-top: 19.25rem;
+    margin-left: 33.125rem;
+    position: absolute;
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+
+#smallPic {
+    margin-top: -45px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+#london {
+    font-size: small;
+}
+
+#space {
+    word-spacing: 50px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+#vince {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+#text__down {
+    word-spacing: 60px;
+    font-size: x-small;
+    margin-top: -30px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1.5px solid hsl(0, 0%, 59%, 0.2);
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
